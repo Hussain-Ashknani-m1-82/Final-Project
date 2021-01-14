@@ -58,4 +58,4 @@
 
 # رابط الموقع
 
-https://ashkanani.netlify.app/
+ashkanani.netlify.app
