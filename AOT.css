@@ -80,9 +80,42 @@ li a:hover {
   z-index: -1;
 }
 .vid-center {
-  display: flex;
   width: auto;
-  height: 850px;
+  height: 730px;
   margin-top: 10px;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.fream {
+  margin-top: 10px;
+  margin-left: 36px;
+  width: 720px;
+}
+video {
+  border-radius: 12px;
+  width: 100%;
+  height: auto;
+}
+.poster {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
   border: 2px solid black;
+  border-radius: 12px;
+  height: 300px;
+  width: 720px;
+  margin-bottom: 600px;
+  margin-left: 36px;
+}
+.par {
+  margin-right: 65px;
+  font-size: 40px;
+  margin-top: 45px;
+}
+.p2 {
+  margin-right: 50px;
+  font-size: 20px;
 }
