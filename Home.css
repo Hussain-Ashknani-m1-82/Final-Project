@@ -30,7 +30,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 24px;
   list-style-type: none;
   margin: 0;
   padding-left: 20px;
@@ -102,6 +102,11 @@ li a:hover {
   margin-top: 30px;
   padding-bottom: 20px;
   color: gray;
+  transition: all 0.3s ease;
+}
+
+.title:hover {
+  color: white;
 }
 
 .head {
@@ -251,6 +256,13 @@ li a:hover {
 .news-card__read-more:hover i {
   left: 0.5rem;
   color: yellow;
+}
+hr {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: gray;
 }
 
 /* .center {
